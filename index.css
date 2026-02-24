@@ -1,0 +1,126 @@
+* {
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    color: #3A3630;
+    background-color: #E4DECE;
+}
+
+.imgContainer {
+    width: 600px;
+    height: 1000px;
+    /* background-color: blue; */
+}
+
+.imgContainer img{
+    width: 1200px;
+    position: relative;
+    bottom: -30px;
+    right: 400px;
+    z-index: 1;
+}
+
+.vl{
+    border-left: 3px solid #3A3630;
+    height: 1000px;
+    position: absolute;
+    margin-top: 132px;
+    left: 450px;
+    margin-left: 3px;
+    top: 0;
+}
+
+.datesContainer{
+    position: relative;
+    height: 50px;
+    width: 500px;
+}
+
+.earlyDate{
+    position: absolute;
+    left: 325px;
+    bottom: 985px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.endDate{
+    position: absolute;
+    left: 330px;
+    bottom: -2px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+
+/* Header info */
+
+.header{
+    font-size: 15px;
+    font-weight:300;
+}
+
+ul li {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#3A3630;
+    font-weight: 500;
+}
+
+.homeIcon{
+    /* background-color: blue; */
+    margin-top:1px;
+    margin-left:-50px;
+    width: 20px;
+    height: 20px;
+}
+
+.title{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+}
+
+.title h2{
+    font-size: 90px;
+    font-weight: 500;
+}
+
+.title h3{
+    font-size: 20px;
+    font-size: 500;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.body h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.body p{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.footer{
+    text-align: center;
+    font-size: 12px;
+    font-weight:300;
+}

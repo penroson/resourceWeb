@@ -1,0 +1,95 @@
+* {
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    color: #3A3630;
+    background-color: #E4DECE;
+    font-size: 13px;
+}
+
+.header{
+    font-size: 15px;
+    font-weight:300;
+}
+
+ul li {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#3A3630;
+    font-weight: 500;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+.homeIcon{
+    /* background-color: blue; */
+    margin-top:1px;
+    margin-left:-50px;
+    width: 20px;
+    height: 20px;
+}
+
+h3{
+    font-size: 20px;
+    font-size: 500;
+}
+
+.chairLabeled{
+    position: relative;
+    text-align: center;
+}
+
+.imgContainer{
+    width: screen;
+    height: 700px;
+    /* background-color: chocolate; */
+    /* display: flex; */
+    z-index: 1;
+}
+
+.imgContainer img{
+    position: relative;
+    top: 50px;
+    width: 1000px;
+    display: block;
+    margin: auto;
+    z-index: 1;
+}
+
+/* descriptor placement */
+
+.descContainer{
+    position: absolute;
+    width: screen;
+    margin: auto;
+    height: 650px;
+    /* background-color: aqua; */
+    bottom: 0px;
+}
+
+.insideBack{
+    bottom: 100px;
+
+}
+
+.footer{
+    text-align: center;
+    font-size: 12px;
+    font-weight:300;
+}
