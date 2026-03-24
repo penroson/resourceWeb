@@ -17,48 +17,61 @@ body{
     width: 600px;
     height: 1000px;
     /* background-color: blue; */
+    display: flex;
+    align-items: center;
 }
 
-.imgContainer img{
-    width: 1200px;
-    position: relative;
-    bottom: -30px;
-    right: 400px;
-    z-index: 1;
+/* computer half-tab scaling */
+@media screen and (max-width: 390px) {
+    
 }
 
-.vl{
-    border-left: 3px solid #3A3630;
-    height: 1000px;
-    position: absolute;
-    margin-top: 132px;
-    left: 450px;
-    margin-left: 3px;
-    top: 0;
+/* phone scaling stuff */
+@media screen and (max-width: 430px) {
+
+    .header{
+        font-size: 5px;
+        font-weight:300;
+    }
+
+    .title{
+        display: column;
+    }
+
+    .title h2{
+        font-size: 3rem;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    .body{
+        /* display: block; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgContainer {
+        width: 300px;
+        height: 630px;
+        /* background-color: blue; */
+    }
+
+    *{
+        margin-right: 6px;
+    }
+
+    .chairHome{
+        margin-left: auto;
+    }
 }
 
-.datesContainer{
-    position: relative;
-    height: 50px;
-    width: 500px;
+.chairHome{
+    width: 600px;
+    margin-left: -90px;
+    bottom: 1000px;
 }
-
-.earlyDate{
-    position: absolute;
-    left: 325px;
-    bottom: 985px;
-    font-size: 14px;
-    font-weight: 500px;
-}
-
-.endDate{
-    position: absolute;
-    left: 330px;
-    bottom: -2px;
-    font-size: 14px;
-    font-weight: 500px;
-}
-
 
 /* Header info */
 
@@ -95,18 +108,19 @@ ul li a{
 }
 
 .title h2{
-    font-size: 90px;
+    font-size: 6rem;
     font-weight: 500;
 }
 
 .title h3{
-    font-size: 20px;
+    font-size: 35px;
     font-size: 500;
 }
 
 .body{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    grid-template-columns: 40% 60%;
+    /* grid-template-columns: 1fr 2fr; */
 }
 
 .body h4{
@@ -123,4 +137,5 @@ ul li a{
     text-align: center;
     font-size: 12px;
     font-weight:300;
+    color: #3A3630;
 }

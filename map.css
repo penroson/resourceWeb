@@ -1,0 +1,119 @@
+* {
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    color: #3A3630;
+    background-color: #E4DECE;
+    font-size: 13px;
+}
+
+.body p{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.header{
+    font-size: 15px;
+    font-weight:300;
+}
+
+ul li {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#3A3630;
+    font-weight: 500;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+.homeIcon{
+    /* background-color: blue; */
+    margin-top:1px;
+    margin-left:-50px;
+    width: 20px;
+    height: 20px;
+}
+
+h3{
+    font-size: 20px;
+    font-size: 500;
+}
+
+/* map information and formatting */
+
+.mapSections{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    place-items: center;
+    /* column-gap: 20px; */
+}
+
+.contentContainer{
+    margin-left: -100px;
+    width: 50%;
+}
+
+.contentContainer img{
+    width: 100%;
+}
+
+.content{
+    position:absolute;
+    z-index: 1;
+    bottom: 70px;
+    width: 25%;
+}
+
+.mapAndPoints{
+    transform:translateY(-60px);
+}
+
+.mapImg{
+    transform:translateY(-80px);
+}
+
+.title{
+    border: 1px solid #3A3630;
+    width: fit-content;
+    background-color: #F1EDE2;
+    padding: 5px;
+}
+
+.desc{
+    border: 1px solid #3A3630;
+    width:fit-content;
+    background-color: #F1EDE2;
+    padding: 5px;
+}
+
+/* .points{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    transform:translate(70px, 100px);
+} */
+
+/* footer info */
+
+.footer{
+    text-align: center;
+    font-size: 12px;
+    font-weight:300;
+}
