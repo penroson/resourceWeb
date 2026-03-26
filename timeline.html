@@ -24,20 +24,9 @@
         </ul>
     </section>
     <br><br>
+    <h3>Scroll vertically!</h3>
     <div class = "outer">
         <div class="slider">
-            <!-- <section>
-                <svg class = "line" width="100%" height="3" viewBox="0 0 100% 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <line x1="-33" y1="1.5" x2="1490" y2="1.5" stroke="#3A3630" stroke-width="5"/>
-                    </svg>
-            </section> -->
-            <!-- <section>
-                <div class = "start">
-                    <h3>Timeline</h3>
-                    <br>
-                    <p>This is a comprehensive timeline of stuff and stuff I promise.</p>
-                </div>
-            </section> -->
             <section>
                 <div class = "inner">
                     <img src = "hapD.png">
@@ -324,7 +313,7 @@
         // })
 
 
-        mm.add("(max-width: 450px)", () => {
+        mm.add("(max-width: 430px)", () => {
 
             let tl = gsap.timeline({
             defaults: {
@@ -341,13 +330,13 @@
 
 
             tl.to(slider, {
-            xPercent: -240
+            xPercent: -265
         }
         )
             
         });
 
-        mm.add("(min-width: 451px)", () => {
+        mm.add("(min-width: 431px)", () => {
 
             let tl = gsap.timeline({
             defaults: {

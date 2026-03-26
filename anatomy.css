@@ -113,3 +113,11 @@ h3{
     width: 150%;
     height: 150%;
 } */
+
+@media screen and (max-width: 430px) {
+
+    *{
+        margin-right: 6px;
+    }
+
+}

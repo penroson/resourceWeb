@@ -51,8 +51,14 @@ ul li a{
 }
 
 h3{
-    font-size: 20px;
-    font-size: 500;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #3A3630;
+    width: fit-content;
+    background-color: #F1EDE2;
+    padding: 5px;
+    z-index: 999;
+    position: absolute;
 }
 
 /* map information and formatting */
@@ -86,6 +92,7 @@ h3{
 
 .mapImg{
     transform:translateY(-80px);
+    z-index: 0;
 }
 
 .title{
@@ -116,4 +123,23 @@ h3{
     text-align: center;
     font-size: 12px;
     font-weight:300;
+}
+
+@media screen and (max-width: 430px) {
+
+    *{
+        margin-right: 6px;
+    }
+
+    .contentContainer img{
+        width: 100%;
+    }    
+
+    .content{
+        position:absolute;
+        z-index: 1;
+        bottom: 50px;
+        width: 50%;
+    }
+
 }

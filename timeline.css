@@ -98,3 +98,29 @@ ul li a{
     top: 250px;
     margin-left: -30px;
 }
+
+h3{
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #3A3630;
+    width:fit-content;
+    background-color: #F1EDE2;
+    padding: 5px;
+}
+
+/* css media scaling */
+
+@media screen and (max-width: 430px) {
+
+    *{
+        margin-right: 6px;
+    }
+
+    .inner{
+        width: 150%;
+    }
+
+    .slider img{
+        width: 100%;
+    }
+}

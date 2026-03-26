@@ -64,3 +64,11 @@ h3{
         color: #3A3630;
     }
 }
+
+@media screen and (max-width: 430px) {
+
+    *{
+        margin-right: 6px;
+    }
+
+}
