@@ -25,13 +25,13 @@
         </ul>
     </section>
     <br><br><br><br><br>
-    <h3>Hover over points on desktop, or click if on mobile!</h3>
+    <h3 id = "start">Hover over points on desktop, or tap if on mobile!</h3>
     <div class="mapSections">
         <div class="contentContainer">
             <div class="content">
                 <section id = "hetepheres">
                 <p class = "title">
-                    Chair of Hetepheres I
+                    Chair of Hetepheres
                 </p>
                 <img src = "hapD.png">
                 <p class = "desc">
@@ -334,6 +334,7 @@
     </section>
 
     <script>
+        const start = document.getElementById("start");
         const hetepheres = document.getElementById("hetepheres");
         const throne = document.getElementById("throne");
         const tyldal = document.getElementById("tyldal");
@@ -366,12 +367,14 @@
         ball.style.display = "none";
         rolig.style.display = "none";
 
+
         function hideHetepheres(){
             hetepheres.style.display = "none";
         }
 
         function showHetepheres(){
             hetepheres.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideThrone(){
@@ -380,6 +383,7 @@
 
         function showThrone(){
             throne.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideTyldal(){
@@ -388,6 +392,7 @@
 
         function showTyldal(){
             tyldal.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideChinese(){
@@ -396,6 +401,7 @@
 
         function showChinese(){
             chinese.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideRoot(){
@@ -404,6 +410,7 @@
 
         function showRoot(){
             root.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideWindsor(){
@@ -412,6 +419,7 @@
 
         function showWindsor(){
             windsor.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideCampeche(){
@@ -420,6 +428,7 @@
 
         function showCampeche(){
             campeche.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideChokwe(){
@@ -428,6 +437,7 @@
 
         function showChokwe(){
             chokwe.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideThonet(){
@@ -436,6 +446,7 @@
 
         function showThonet(){
             thonet.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideWagner(){
@@ -444,6 +455,7 @@
 
         function showWagner(){
             wagner.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideWassily(){
@@ -452,6 +464,7 @@
 
         function showWassily(){
             wassily.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideMonobloc(){
@@ -460,6 +473,7 @@
 
         function showMonobloc(){
             monobloc.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideEames(){
@@ -468,6 +482,7 @@
 
         function showEames(){
             eames.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideBall(){
@@ -476,6 +491,7 @@
 
         function showBall(){
             ball.style.display = "block";
+            start.style.display = "none";
         }
 
         function hideRolig(){
@@ -484,6 +500,7 @@
 
         function showRolig(){
             rolig.style.display = "block";
+            start.style.display = "none";
         }
 
     </script>
