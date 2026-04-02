@@ -7,10 +7,15 @@
     box-sizing: border-box;
 }
 
+a:hover{
+    cursor: url('cursorActive.svg'), auto;
+}
+
 body{
     font-family: "Outfit", sans-serif;
     color: #3A3630;
     background-color: #E4DECE;
+    cursor: url('cursor.svg'), auto;
 }
 
 .imgContainer {

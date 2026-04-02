@@ -22,6 +22,11 @@ body{
     color: #3A3630;
     background-color: #E4DECE;
     font-size: 13px;
+    cursor: url('cursor.svg'), auto;
+}
+
+a:hover{
+    cursor: url('cursorActive.svg'), auto;
 }
 
 .body p{
