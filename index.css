@@ -47,7 +47,6 @@ body{
     }
 
     .body{
-        /* display: block; */
         display: flex;
         flex-direction: column;
     }
@@ -135,7 +134,7 @@ ul li a{
 
 .body p{
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .footer{
